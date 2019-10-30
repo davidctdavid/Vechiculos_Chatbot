@@ -4,8 +4,8 @@
 var tramos={
     principal:{
         wconv_version_date : '2018-09-20',
-        wconv_workspaceId : 'd7ff2b06-b0dd-429e-94e1-87e41812c99f',
-        wconv_apikey : 'dPVHWNmEXdRKlP2Q0-0MTXdboSeWfJ0yP5x4HehNUZYq',
+        wconv_workspaceId : '7ba31024-af1d-47ff-bcfa-fee22864ccdb',
+        wconv_apikey : 'XY1g0x3vRPCVFCcXH-qTAPGibJiK70EF47XyqK5LhM1G',
         wconv_url : 'https://gateway.watsonplatform.net/assistant/api',
     },secundario:{
     },bd:{
