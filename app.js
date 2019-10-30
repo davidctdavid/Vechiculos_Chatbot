@@ -174,7 +174,7 @@ function buscarUsuario(id){
 	return valid;
 }
 // start server on the specified port and binding host
-server.listen(appEnv.port, 'softconsultingbot.herokuapp.com', function() {
+server.listen(appEnv.port, '0.0.0.0', function() {
   console.log("server starting on " + appEnv.url);
 });
 
