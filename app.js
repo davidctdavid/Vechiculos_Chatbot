@@ -182,7 +182,7 @@ bot.on('message', msg => {
 	//console.log(msg);
     Request.post({
         "headers": { "content-type": "application/json" },
-        "url": "http://softconsultingbot.herokuapp.com/vehiculo/enviarMensaje",
+        "url": "https://softconsultingbot.herokuapp.com/vehiculo/enviarMensaje",
         "body": JSON.stringify({
             "texto": msg.text,
             "id": msg.chat.id
