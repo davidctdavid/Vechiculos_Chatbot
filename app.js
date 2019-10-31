@@ -174,8 +174,12 @@ function buscarUsuario(id){
 	return valid;
 }
 // start server on the specified port and binding host
-server.listen(appEnv.port, '0.0.0.0', function() {
+/*server.listen(appEnv.port, '0.0.0.0', function() {
   console.log("server starting on " + appEnv.url);
+});*/
+
+app.listen(process.env.PORT || 3000, function(){
+  console.log("Express server listening on port %d in %s mode", this.address().port, app.settings.env);
 });
 
 bot.on('message', msg => {
